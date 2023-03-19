@@ -4,6 +4,7 @@ import img3 from './images/3.jpg'
 import img4 from './images/4.jpg'
 import img5 from './images/5.jpg'
 import img6 from './images/6.jpg'
+import img7 from './images/7.jpg'
 
 export const DB = [
     {
@@ -47,5 +48,12 @@ export const DB = [
         name: "Remove BG",
         image: img6,
         detail: "Quitar background a imagen"
+    },
+    {
+        id: 7,
+        url: "https://box-shadow.dev/",
+        name: "Box Shadow",
+        image: img7,
+        detail: "Generador de sombras CSS"
     }
 ]
