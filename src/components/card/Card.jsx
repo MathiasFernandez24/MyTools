@@ -2,20 +2,19 @@ import React from 'react'
 import './Card.css'
 import { DB } from '../../dataBase/DB'
 
-const Card = ({image, name}) => {
+const Card = ({ card }) => {
 
     const i = DB[0]
-    const i2 = DB[1]
     return (
-        <div href={i.url} className='card-container'>
-            <a href={i.url} target='_blank'>
-                <div className='front card-container'>
-                    {i.name}
-                    <img className='card-image' src={i.image} alt="Loading.." />
+        <div href={card.url} className='card-container'>
+            <a href={card.url} target='_blank'>
+                <div className='front'>
+                    {card.name}
+                    <img className='card-image' src={card.image} alt="Loading.." />
                 </div>
                 <div className='back'>
-                    {i2.name}
-                    <img className='card-image' src={i2.image} alt="Loading.." />
+                    {card.detail}
+                    {/* <img className='card-image' src={i2.image} alt="Loading.." /> */}
                 </div>
 
             </a>
