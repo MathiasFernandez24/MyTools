@@ -1,26 +1,30 @@
 .card-container {
-    display: block;
+    /* display: block; */
     position: relative;
     width: 200px;
     height: 200px;
     border-radius: 20px;
     background-color: aqua;
-    /* border: 2px solid black; */
+    margin: 0px;
+    padding: 0px;
+    border: 2px solid black;
 }
 
 .card-container div {
     overflow: hidden;
     position: absolute;
     backface-visibility: hidden;
-    transition: 1s;
+    transition: .5s;
     border: 2px solid black;
     border-radius: 20px;
     width: 100%;
     height: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .card-image {
-    width: 202px;
+    width: 200px;
     height: 200px;
 }
 
