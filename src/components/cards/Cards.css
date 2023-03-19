@@ -1,4 +1,5 @@
-.container-cards {
+.cards-container {
     background-color: blue;
     height: auto;
+    display: inline;
 }

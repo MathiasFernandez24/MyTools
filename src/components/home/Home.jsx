@@ -1,5 +1,6 @@
 import './Home.css';
 import Cards from '../cards/Cards'
+// import Card from '../card/Card'
 
 
 function Home() {
