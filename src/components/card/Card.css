@@ -1,13 +1,12 @@
 .card-container {
-    /* display: block; */
+    display: inline-block;
     position: relative;
     width: 200px;
     height: 200px;
     border-radius: 20px;
     background-color: aqua;
-    margin: 0px;
+    margin: 20px;
     padding: 0px;
-    border: 2px solid black;
 }
 
 .card-container div {
@@ -32,7 +31,23 @@
     transform: perspective(1000px) rotateY(0deg);
 }
 
+.detail {
+    font-size: 16px;
+    margin: 0px 5px;
+}
+
+.title {
+    font-size: 30px;
+    margin: 5px 0px;
+    text-align: center;
+}
+
+
 .back {
+    /* text-align: center; */
+    color: aliceblue;
+    background: rgb(15, 3, 38);
+    background: radial-gradient(circle, rgba(15, 3, 38, 1) 0%, rgba(23, 0, 37, 1) 100%);
     transform: perspective(1000px) rotateY(180deg);
 }
 
