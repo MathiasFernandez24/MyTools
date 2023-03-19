@@ -8,9 +8,9 @@ function Cards() {
     return (
         <div className='cards-container'>
             {
-                DB.map((card)=><Card card={card} />)
+                DB.map((card) => <Card card={card} />)
             }
-            
+
         </div>
     )
 
