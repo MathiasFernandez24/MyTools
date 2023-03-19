@@ -7,6 +7,7 @@ function Cards() {
 
     return (
         <div className='cards-container'>
+            
             {
                 DB.map((card)=><Card card={card} />)
             }
