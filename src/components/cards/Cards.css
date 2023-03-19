@@ -1,5 +1,11 @@
 .cards-container {
     background-color: blue;
-    height: auto;
-    display: inline;
+    border: solid 3px black;
+    margin: 10px;
+    padding: 10px;
 }
+
+.cards-container div {
+    margin: 10px;
+}
+

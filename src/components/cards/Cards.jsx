@@ -9,17 +9,16 @@ function Cards() {
 
     return (
         <div className='cards-container'>
-            <span>
+            {/* <div className='card-container'> */}
                 <Card image={i.image} name={i.name} />
-            </span>
-            <span>
+            {/* </div> */}
+            {/* <div className='card-container'> */}
                 <Card image={i.image} name={i.name} />
-            </span>
-            <div>
+            {/* </div> */}
+            {/* <div className='card-container'> */}
                 <Card image={i.image} name={i.name} />
-            </div>
-            <Card image={i.image} name={i.name} />
-            <Card image={i.image} name={i.name} />
+            {/* </div> */}
+            
         </div>
     )
 

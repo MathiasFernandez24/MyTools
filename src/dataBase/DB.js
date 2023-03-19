@@ -7,7 +7,7 @@ import img5 from './images/5.jpg'
 export const DB = [
     {
         id: 1,
-        url: "texto url 1",
+        url: "https://www.youtube.com/",
         name: "texto nombre 1",
         image: img1
     },

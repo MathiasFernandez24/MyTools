@@ -1,9 +1,40 @@
 .card-container {
     display: block;
-    /* flex-direction: column; */
+    flex-direction: column;
+    position: relative;
+    width: 202px;
+    height: 222px;
+    /* background-color: aqua; */
+    /* border: 2px solid black; */
+    /* border-radius: 20px; */
+    overflow: hidden;
+}
+
+.card-container div {
+    position: absolute;
+    backface-visibility: hidden;
+    transition: 1s;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.card-image {
     width: 200px;
     height: 200px;
-    background-color: aqua;
-    border: 2px solid black;
-    border-radius: 10px;
+}
+
+.front {
+    transform: perspective(500px) rotateY(0deg);
+}
+
+.back {
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.card-container:hover .front {
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.card-container:hover .back {
+    transform: perspective(500px) rotateY(360deg);
 }
