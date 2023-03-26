@@ -1,79 +1,8 @@
-.barra-navegacion {
-    background-image: url(imagenes/fondo-navbar.svg);
-    background-position: center;
-    height: 60px;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2rem;
-    text-shadow: 2px 2px 5px black;
-    padding-top: 5px;
-    box-shadow:  0px 2px 6px rgb(66, 66, 66);
-    margin-bottom: 10px;
-}
-
-#contenedor-carrusel {
-    /* border: 5px solid black; */
-    /* border-radius: 15px; */
-    height: 200px;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-
-.item-carrusel {
-    border: 1px solid black;
-    height: 200px;
-    position: relative;
-}
-
-.tarjeta-carrusel {
-    
-    height: 100%;
-}
-
-.flechas-carrusel {
-    
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
+.container-home {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-
-/* #carrusel1 {
-    text-align: center;
-    align-items: center;
-    justify-items: center; 
-    
-} */
-
-#tarjeta1 {
-    background-color: darkslategray;
-    text-align: center;
-    line-height: 180px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2rem;
-    /* align-items: center; */
-}
-
-#tarjeta2 {
-    background-color: darkslategray;
-    text-align: center;
-    line-height: 180px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2rem;
-}
-
-#tarjeta3 {
-    background-color: darkslategray;
-    text-align: center;
-    line-height: 180px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 2rem;
+    flex-direction: column;
+    /* background-color: aqua; */
+    height: 100vh;
 }
 
 a {

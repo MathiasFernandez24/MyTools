@@ -1,0 +1,54 @@
+.barra-navegacion {
+    display: flex;
+    flex-direction: row;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    /* background-image: url(fondo-navbar.svg); */
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='200' preserveAspectRatio='none' viewBox='0 0 1440 200'%3e%3cg mask='url(%26quot%3b%23SvgjsMask2428%26quot%3b)' fill='none'%3e%3crect width='1440' height='200' x='0' y='0' fill='url(%23SvgjsLinearGradient2429)'%3e%3c/rect%3e%3cpath d='M -24.691023452872912%2c181 C 47.31%2c154 191.31%2c56.8 335.3089765471271%2c46 C 479.31%2c35.2 551.31%2c133.8 695.308976547127%2c127 C 839.31%2c120.2 911.31%2c4.2 1055.308976547127%2c12 C 1199.31%2c19.8 1271.31%2c157 1415.308976547127%2c166 C 1559.31%2c175 1770.37%2c69.8 1775.308976547127%2c57 C 1780.25%2c44.2 1507.06%2c93 1440%2c102' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -109.37291042481647%2c43 C -37.37%2c61.4 106.63%2c125.6 250.62708957518353%2c135 C 394.63%2c144.4 466.63%2c77.4 610.6270895751835%2c90 C 754.63%2c102.6 826.63%2c214.8 970.6270895751835%2c198 C 1114.63%2c181.2 1186.63%2c21.8 1330.6270895751836%2c6 C 1474.63%2c-9.8 1668.75%2c107.4 1690.6270895751836%2c119 C 1712.5%2c130.6 1490.13%2c75 1440%2c64' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -68.14467501241802%2c94 C 3.86%2c110.4 147.86%2c175.2 291.855324987582%2c176 C 435.86%2c176.8 507.86%2c94.4 651.855324987582%2c98 C 795.86%2c101.6 867.86%2c207.4 1011.855324987582%2c194 C 1155.86%2c180.6 1227.86%2c45.6 1371.855324987582%2c31 C 1515.86%2c16.4 1718.23%2c122.4 1731.855324987582%2c121 C 1745.48%2c119.6 1498.37%2c43.4 1440%2c24' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -340.57732295791516%2c67 C -268.58%2c77.8 -124.58%2c122.4 19.422677042084857%2c121 C 163.42%2c119.6 235.42%2c47.2 379.42267704208484%2c60 C 523.42%2c72.8 595.42%2c195.2 739.4226770420848%2c185 C 883.42%2c174.8 955.42%2c21 1099.4226770420848%2c9 C 1243.42%2c-3 1391.31%2c111 1459.4226770420848%2c125 C 1527.54%2c139 1443.88%2c88.2 1440%2c79' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -495.15227145793983%2c112 C -423.15%2c108.6 -279.15%2c78.8 -135.15227145793983%2c95 C 8.85%2c111.2 80.85%2c205.6 224.84772854206017%2c193 C 368.85%2c180.4 440.85%2c47.2 584.8477285420602%2c32 C 728.85%2c16.8 800.85%2c122.2 944.8477285420602%2c117 C 1088.85%2c111.8 1205.82%2c1 1304.8477285420602%2c6 C 1403.88%2c11 1412.97%2c114.8 1440%2c142' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3cpath d='M -700.2318894969549%2c95 C -628.23%2c98 -484.23%2c117.2 -340.23188949695486%2c110 C -196.23%2c102.8 -124.23%2c46.6 19.768110503045136%2c59 C 163.77%2c71.4 235.77%2c171.6 379.76811050304514%2c172 C 523.77%2c172.4 595.77%2c64 739.7681105030451%2c61 C 883.77%2c58 959.72%2c166.2 1099.7681105030451%2c157 C 1239.81%2c147.8 1371.95%2c43.4 1440%2c15' stroke='rgba(51%2c 121%2c 194%2c 0.58)' stroke-width='2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask2428'%3e%3crect width='1440' height='200' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='50%25' x2='100%25' y2='50%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient2429'%3e%3cstop stop-color='rgba(11%2c 48%2c 87%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(44%2c 95%2c 161%2c 1)' offset='0.49'%3e%3c/stop%3e%3cstop stop-color='rgba(11%2c 48%2c 87%2c 1)' offset='0.96'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-position: center;
+    height: 80px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 5px black;
+    /* padding-top: 5px; */
+    box-shadow: 0px 2px 6px rgb(66, 66, 66);
+    margin-bottom: 10px;
+}
+
+.linkedin-container {
+    display: flex;
+    /* background-color: brown; */
+    justify-content: space-between;
+    width: 300px;
+
+}
+
+.linkedin-click {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 36px; */
+}
+
+h3 {
+    margin: 0px 20px;
+}
+
+A:link {
+    text-decoration: none
+}
+
+A:visited {
+    color: black;
+    /* font-family: arial; */
+    text-decoration: none
+}
+
+A:hover {
+    color: rgb(255, 255, 255);
+    /* font-family: arial; */
+    text-decoration: none
+}
