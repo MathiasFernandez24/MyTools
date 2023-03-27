@@ -5,6 +5,7 @@ import img4 from './images/4.jpg'
 import img5 from './images/5.jpg'
 import img6 from './images/6.jpg'
 import img7 from './images/7.jpg'
+import img8 from './images/8.jpg'
 
 export const DB = [
     {
@@ -55,5 +56,12 @@ export const DB = [
         name: "Box Shadow",
         image: img7,
         detail: "Generador de sombras CSS"
+    },
+    {
+        id: 8,
+        url: " https://squoosh.app/",
+        name: "Squoosh",
+        image: img8,
+        detail: "Reductor de tamaño de imagenes sin perder calidad"
     }
 ]

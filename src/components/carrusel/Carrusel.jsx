@@ -50,6 +50,7 @@ const Carrusel = () => {
                 </div>
             </div>
         </div>
+
     )
 }
 
