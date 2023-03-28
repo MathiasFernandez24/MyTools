@@ -52,11 +52,11 @@ const Carrusel2 = () => {
             setFrase(arrayFrases[randomNumber])
 
             setTimeout(() => {
-                setAnimationClass("animate__animated animate__fadeOutDown animate__slow"); // Agrego la clase para desencadenar la animación
-            }, 10200); // Espera 10.2s antes de agregar la clase, en realidad lo que busco es ejecutarla 1.8 segundos antes que cambie
-            setTimeout(() => {
                 setAnimationClass("animate__animated animate__fadeInDown animate__slow"); // Agrego la clase para desencadenar la animación
             }, 0)
+            setTimeout(() => {
+                setAnimationClass("animate__animated animate__fadeOutDown animate__slow"); // Agrego la clase para desencadenar la animación
+            }, 10200); // Espera 10.2s antes de agregar la clase, en realidad lo que busco es ejecutarla 1.8 segundos antes que cambie
         }, frase === "" ? 0 : 12000);//la primera vez lo ejecuto instantaneamente
         return () => clearInterval(interval)
     }, [frase])
