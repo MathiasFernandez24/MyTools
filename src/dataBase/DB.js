@@ -75,7 +75,7 @@ export const DB = [
     },
     {
         id: 10,
-        url: " https://www.tailwindshades.com/",
+        url: " https://xsgames.co/animatiss/",
         name: "AnimatiSS",
         image: img10,
         detail: "Animaciones customizables para componentes"
