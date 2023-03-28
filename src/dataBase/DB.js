@@ -6,6 +6,8 @@ import img5 from './images/5.jpg'
 import img6 from './images/6.jpg'
 import img7 from './images/7.jpg'
 import img8 from './images/8.jpg'
+import img9 from './images/9.jpg'
+import img10 from './images/10.jpg'
 
 export const DB = [
     {
@@ -63,5 +65,20 @@ export const DB = [
         name: "Squoosh",
         image: img8,
         detail: "Reductor de tamaño de imagenes sin perder calidad"
-    }
+    },
+    {
+        id: 9,
+        url: " https://www.tailwindshades.com/",
+        name: "Tailwind",
+        image: img9,
+        detail: "Paleta de colores"
+    },
+    {
+        id: 10,
+        url: " https://www.tailwindshades.com/",
+        name: "AnimatiSS",
+        image: img10,
+        detail: "Animaciones customizables para componentes"
+    },
+
 ]
