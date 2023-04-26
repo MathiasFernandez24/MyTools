@@ -10,6 +10,7 @@ import img9 from './images/9.jpg'
 import img10 from './images/10.jpg'
 import img11 from './images/11.jpg'
 import img12 from './images/12.jpg'
+import img13 from './images/13.jpg'
 
 export const DB = [
     {
@@ -73,7 +74,7 @@ export const DB = [
         url: " https://www.tailwindshades.com/",
         name: "Tailwind",
         image: img9,
-        detail: "Paleta de colores"
+        detail: "Paleta de colores de un color (tonalidades)"
     },
     {
         id: 10,
@@ -95,6 +96,13 @@ export const DB = [
         name: "Flaticon",
         image: img12,
         detail: "Iconos con colores para descargar en PNG o SVG"
+    },
+    {
+        id: 13,
+        url: " https://colorhunt.co/",
+        name: "Color Hunt",
+        image: img13,
+        detail: "Paletas de colores con distintos estilos"
     },
 
 ]
