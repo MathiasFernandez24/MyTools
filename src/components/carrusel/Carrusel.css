@@ -4,9 +4,8 @@ h5 {
 }
 
 .carrusel-2-container {
-    /* height: 60px; */
+    height: min-content;
     display: flex;
-    background-color: aqua;
     background-color: rgba(1, 45, 187, 0.333);
     font-size: 2rem;
     padding: 10px;

@@ -8,6 +8,8 @@ import img7 from './images/7.jpg'
 import img8 from './images/8.jpg'
 import img9 from './images/9.jpg'
 import img10 from './images/10.jpg'
+import img11 from './images/11.jpg'
+import img12 from './images/12.jpg'
 
 export const DB = [
     {
@@ -79,6 +81,20 @@ export const DB = [
         name: "AnimatiSS",
         image: img10,
         detail: "Animaciones customizables para componentes"
+    },
+    {
+        id: 11,
+        url: " https://ethercreative.github.io/react-native-shadow-generator/",
+        name: "Shadow Generator RN",
+        image: img11,
+        detail: "Sombras para React Native, equivalente en Android & IOS"
+    },
+    {
+        id: 12,
+        url: " https://www.flaticon.es/",
+        name: "Flaticon",
+        image: img12,
+        detail: "Iconos con colores para descargar en PNG o SVG"
     },
 
 ]
